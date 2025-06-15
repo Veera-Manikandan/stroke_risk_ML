@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 
  # LOADING THE DATAS INTO THE check.pkl FILE
-with open('/Users/veeramanikandan/heart/check.pkl', "rb") as file:
+with open('check.pkl', "rb") as file:
     model = pickle.load(file)
 
 
